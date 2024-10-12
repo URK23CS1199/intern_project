@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Home | Karunya Institute of Science And Technology</title>
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+            }
+            nav{
+                height:40px;
+                background-color: rgb(3, 12, 107);
+                width:100%;
+            }
+            div{
+                padding: 5px;
+            }
+            ul{
+                padding:10px;
+                float:center;
+                margin-left:10%;
+                margin-right:10%;
+                display: flex;
+                list-style: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            a{
+                padding:8px;
+                margin:10px;
+                color: aliceblue;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bolder;
+            }
+            .about-us{
+                border:3px solid ;
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                margin:10px;
+                background-color: aqua;
+            }
+            p{
+                font-size:large;
+                margin:20px;
+            }
+           
+            .content{
+                padding:25px;
+                font-size: large;
+                border: 3px solid;
+            }
+            .g{
+                border-radius: 10px;
+                height: 200px;
+                width:400px;
+                border: 3px solid;
+            }
+            .gallery{
+                background-color: blanchedalmond;
+            }
+        
+            .contact-us{
+                display: flex;
+                text-align:center;
+            }
+            .address{
+                margin: 0px;
+                font-size: 28px;
+                height:300px;
+                width: 600px;
+                background-color: rgb(17, 239, 135);
+            }
+            .department{
+                margin: 0px;
+                font-size: 28px;
+                height:300px;
+                width: 600px;
+                background-color: blueviolet;
+            }
+            a:hover{background-color: rgb(28, 144, 245);}
+        </style>
+    </head>
+    <body>
+        <center>
+            <img src = "logo.webp" />
+        </center>
+        <nav>
+        <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">admissions</a></li>
+            <li><a href="#">acadamics</a></li>
+            <li><a href="#">researches</a></li>
+            <li><a href="#">infrastructure</a></li>
+            <li><a href="#">placements</a></li>
+            <li><a href="#">career</a></li>
+            <li><a href="#">online mba</a></li> 
+            <li><a href="contact-form.html">Contact form</a></li>   
+        </ul>
+    </nav>
+    <div>
+        <img src="KITS-NEW-BANNER.jpg" style="width:100%;height:80%;border-radius: 20px;"/>
+    </div>
+    <div class="about-us">
+        <h1 align="center">About Us</h1><hr style="width:200px; height:2px;background-color:black;">
+        <p >Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity. The institution is the fulfillment of the vision of its founders Late Dr. D. G. S. Dhinakaran and the present Chancellor Dr. Paul Dhinakaran. Established in 1986 as an Engineering College, it was granted an autonomous status in 1999 and declared Deemed-to-be University by the University Grants Commission (UGC) in recognition of its academic excellence by the Ministry of Human Resources Development under section 3 of the UGC Act, 1956 vide notification no 9-3-2000-U3 dated 23.6.2004 of the Government of India. Accredited by NAAC, the institution offers a wide array of Bachelors, Masters and Doctoral Degree programmes in various branches of Engineering, Biotechnology, Food processing and Agricultural Sciences. From a humble beginning of 180 students, the institution has rapidly grown to 8491 students and 452 faculty representing 18 academic departments.
+
+            <br><br>In the three decades of service to higher education, Karunya Institute of Technology and Sciences has made significant progression in teaching learning, research and consultancy, innovation and transfer of technology, community service and value education. Translating the vision of the Founders into action, the institution is currently engaged in finding solutions to human problems in the four major areas such as Water, Food, Healthcare, and Energy through scientific and technological interventions.</p>
+    </div>
+    <table>
+        <tr>
+            <td><img src="civil.jpeg" /></td>
+            <td class="content"><p>The Division of Civil Engineering has been in existence since the inception of Karunya Institute of Technology and Sciences in 1986 and has grown into a full-fledged Division with specializations in Structural Engineering, Environment and Water Resources Engineering. The B.Tech Civil Engineering program is accredited by NBA. It has grown steadily with its parent institution and has turned out 31 batches of Civil Engineering Graduates. Many of our alumni hold prestigious positions in leading industries, government and academic institutions world-wide. The Division has well qualified faculty members with different areas of specialization with good academic, field and research background.
+            </p></td>
+        </tr>
+    </table>
+    <table>
+            <tr>
+                <td class="content"><p>The Division of Mechanical Engineering of Karunya Institute of Technology and Sciences is known for excellence in academics and research in the field of design & manufacturing engineering, material sciences & thermal management, renewable energy, metallurgy and mechatronics engineering. The department has well established laboratories and state of art research centers to carry out research and development in the thrust areas of food, water, health care and energy. Holistic education with values and ethics are imparted to students allowing them to pursue successful careers in product design, research and entrepreneurship. Students enjoy freedom to express their ideas through interaction with faculty and peers by participating in department technical clubs, research lab activities. This leads students to develop technical skills, innovative products, patents and leadership qualities.
+
+                </p></td>
+                <td><img src="mech.png"/></td>
+
+            </tr>
+        </table>
+    <table>
+            <tr>
+                <td>
+                    <img src="cse.jpg" style="width:25%"/>
+                </td>
+                <td  class="content"><p>Accredited by the National Board of Accreditation (NBA), the Division of Computer Science and Engineering stands as a beacon of excellence offering undergraduate, postgraduate and Ph.D. programs. This accreditation underscores the division's dedication to delivering high-quality education. Actively engaged in research and product development, the division cultivates an environment where faculty members, research scholars, and students collaboratively contribute to cutting-edge advancements in computing. Programs and courses are continually updated to align with global requirements, covering diverse domains such as Data Science, Artificial Intelligence, Cyber Security, Blockchain, IoT, Cloud Computing, and Virtual Reality.
+                    The teaching and learning process is enriched by leveraging advanced computing facilities, ensuring students are well-equipped to launch their careers in emerging fields. Committed to producing well-rounded graduates, the division's emphasis on adaptability and practical, hands-on experience prepares students for success in the ever-evolving landscape of computer science and engineering.</p></td>
+            </tr>
+    </table>
+    <div class="gallery">
+        <center>
+        <h1 align="center">Gallery</h1><hr style="width:200px; height:2px;background-color:black;"><br>
+        <img class="g"src="KPIC1.png"/>
+        <img  class="g"src="KPIC2.jpg"/>
+        <img  class="g"src="KPIC3.jpg"/>
+        <img  class="g"src="KPIC4.jpg"/>
+        <img  class="g"src="KPIC5.jpg"/>
+        <img  class="g"src="kPIC6.jpg"/>
+        <img  class="g"src="KPIC7.jpg"/>
+        <img  class="g"src="KPIC8.jpg"/>
+        <img  class="g"src="KPIC9.jpg"/>
+        <img  class="g"src="KPIC10.jpg"/>
+        <img  class="g"src="KPIC11.jpg"/>
+        <img  class="g"src="KPIC12.jpeg"/>
+    </center>
+    </div>
+    <h1 align="center">Contact Us</h1><hr style="width:200px; height:2px;background-color:black;"><br>
+    <div class="contact-us">
+        <p class="address"><b>Address</b><br>
+                        Karunya Institute of Technology and Sciences,<br>
+                        (Deemed to be University),<br>
+                        Karunya Nagar,<br>
+                        Coimbatore - 641 114,<br>
+                        Tamil Nadu, India<br>
+                        Virtual Tour<br></p>
+        <img class="image" src="location-pic.jpg" style="width:500px;height:300px;"/>
+        <p class="department"><b>Department</b><br>
+                        Civil department<br>
+                        Mechanical department<br>  
+                        Computer science and engineering<br>
+                        Electrical Engineering<br>
+                        Robotical Engineering<br>
+                        Mechatronics Engineering<br>
+                        And Other<br>
+                        Arts and Sciences<br></p>
+    </div>
+    </body>    
+</html>
